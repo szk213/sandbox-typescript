@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc -p ./",
+    "clean": "trash ./dist",
+    "build": "npm run clean && tsc -p ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/szk213/sandbox-typescript#readme",
   "devDependencies": {
+    "trash-cli": "^1.4.0",
     "tsc": "^1.20150623.0"
   }
 }
