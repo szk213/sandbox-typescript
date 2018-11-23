@@ -7,11 +7,12 @@
         "preserveConstEnums": true,
         "outDir": "dist",
         "sourceMap": true,
-        "pretty": true
+        "pretty": true,
+        "sourceRoot": "."
     },
     "include": [
         "src/**/*.ts",
-        "tests/**/*.ts"
+        "test/**/*.ts"
     ],
     "exclude": [
         "node_modules"

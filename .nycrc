@@ -1,5 +1,14 @@
 {
- "exclude": [
+  "include": [
+    "src/*.ts",
+    "src/**/*.ts"
+  ],
+  "extension": [
+    ".ts"
+  ],
+  "exclude": [
     "**/*.spec.js"
-  ]
+  ],
+  "sourceMap":true,
+  "all": true
 }

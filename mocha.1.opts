@@ -1,5 +1,0 @@
---reporter mocha-jenkins-reporter
---reporter-options junit_report_path=./dist/reports/unit/
---watch-extensions tsx,ts
---colors
-tests/**/*spec.ts
